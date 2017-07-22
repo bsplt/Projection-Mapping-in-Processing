@@ -10,6 +10,39 @@ I wrote this code for an artistic practice. [Check out the documentation video](
 
 ## Getting Started
 
+The sketch is pretty much ready to start. There is an option to trigger a relay with an [Arduino](https://www.arduino.cc/) over [Firmata](https://www.arduino.cc/en/Reference/Firmata), you can turn it on in the `projection_arduino` tab, you'll see.
+
+Most important is the timeline. It is located in the `data` folder as `timeline.csv`. It works like this:
+Start in ms | End in ms | Projection Area | Effect Name
+----------- | ----------| --------------- | -----------
+63980 | 64200 | 2 | "FFTFillFast"
+64100 | 67500 | 1 | "Outline"
+66560 | 66810 | 0 | "LineVertUp"
+
+Included are the following effects:
+* LineVertDown
+* LineVertUp 
+* LineHoriLeft 
+* LineHoriRight 
+* Fill 
+* FadeOut
+* FadeIn 
+* Outline 
+* StripesHori 
+* StripesVert 
+* RandomHori 
+* RandomVert 
+* FFTFillSlow 
+* FFTFillFast 
+* BlueScreen 
+
+Additional effects:
+* Restart (Resets the timeline to 0)
+* ArduinoButton (Waits for a button push on the Arduino to continue the loop)
+* ArduinoSwitch (Turning on a relay)
+
+My advice is if you're interested in my project: Please read the code yourself or contact me directly. Most of the stuff should explain itself and/or is commented.
+
 ## Running
 
 ## Further information
