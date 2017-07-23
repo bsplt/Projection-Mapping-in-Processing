@@ -1,6 +1,6 @@
 # Projection Mapping in Processing
 
-This code was part of an installation for a short exhibition in which I was featured. It is the working prototype of a projection mapping software, written in and executed via the [Processing IDE](https://www.processing.org/). The visual effects can be programmed in a linear timeline. The software also implents a feature to ineract with an [Arduino](https://www.arduino.cc/).
+This code was part of an installation for a short exhibition in which I was featured. It is the working prototype of a projection mapping software, written in and executed via the [Processing IDE](https://www.processing.org/). The visual effects can be programmed in a linear timeline. The software also implents a feature to ineract with an [Arduino](https://www.arduino.cc/). I put it here as a documentation for myself as well as for a couple of other people who were interested in the code. The program might not be the ideal approach to the subject but an interesting solution that crystallized under high time pressure.
 
 ## Documentation
 
@@ -10,12 +10,12 @@ I wrote this code for an artistic practice. [Check out the documentation video](
 
 ## Getting Started
 
-The sketch is pretty much ready to start. There is an option to trigger a relay with an [Arduino](https://www.arduino.cc/) over [Firmata](https://www.arduino.cc/en/Reference/Firmata), you can turn it on in the `projection_arduino` tab, you'll see.
+The sketch is pretty much ready to start. There is an option to trigger a relay with an [Arduino](https://www.arduino.cc/) over [Firmata](https://www.arduino.cc/en/Reference/Firmata), you can turn it on in the `projection_arduino` tab, you'll see. But it it default off, so it doesn't interfere with if there is no Arduino connected.
 
 Most important is the timeline. It is located in the `data` folder as `timeline.csv`. It works like this:
 
 | Start in ms | End in ms | Projection Area | Effect Name   |
-| ----------- | ----------| --------------- | ------------- |
+| ----------- | --------- | --------------- | ------------- |
 | 63980       | 64200     | 2               | "FFTFillFast" |
 | 64100       | 67500     | 1               | "Outline"     |
 | 66560       | 66810     | 0               | "LineVertUp"  |
