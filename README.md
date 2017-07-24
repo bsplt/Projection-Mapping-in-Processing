@@ -21,26 +21,26 @@ Most important is the timeline. It is located in the `data` folder as `timeline.
 | 66560       | 66810     | 0               | "LineVertUp"  |
 
 Included are the following effects:
-* LineVertDown
-* LineVertUp 
-* LineHoriLeft 
-* LineHoriRight 
-* Fill 
-* FadeOut
-* FadeIn 
-* Outline 
-* StripesHori 
-* StripesVert 
-* RandomHori 
-* RandomVert 
-* FFTFillSlow 
-* FFTFillFast 
-* BlueScreen 
+* `LineVertDown`
+* `LineVertUp` 
+* `LineHoriLeft` 
+* `LineHoriRight` 
+* `Fill` 
+* `FadeOut`
+* `FadeIn` 
+* `Outline` 
+* `StripesHori` 
+* `StripesVert` 
+* `RandomHori` 
+* `RandomVert` 
+* `FFTFillSlow`
+* `FFTFillFast` 
+* `BlueScreen` 
 
 Additional effects:
-* Restart (Resets the timeline to 0)
-* ArduinoButton (Waits for a button push on the Arduino to continue the loop)
-* ArduinoSwitch (Turning on a relay)
+* `Restart` (Resets the timeline to 0)
+* `ArduinoButton` (Waits for a button push on the Arduino to continue the loop)
+* `ArduinoSwitch` (Turning on a relay)
 
 My advice is if you're interested in my project: Please read the code yourself or contact me directly. Most of the stuff should explain itself and/or is commented.
 
