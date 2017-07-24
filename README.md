@@ -46,6 +46,14 @@ My advice is if you're interested in my project: Please read the code yourself o
 
 ## Running
 
+Most important to projection mapping is to map the projection to the wall. :tada: I made a configuration mode that is accessible with the key `c`. It let's you drag the mapped areas around with your mouse. Once `c` is pressed again, it will be saved to a file called `planes.csv` in the `data` folder. 
+
+There is a `mapping_sound.wav` in the `data` folder. It will be played with the [minim library](http://code.compartmental.net/tools/minim/) for Processing.
+
+In the installation set up I used a button that you can see in the video to re-start the loop. I works with the `ArduinoButton` effect.
+
+So if this is given it will run smoothly once you press play in the Processing IDE.
+
 ## Further information
 
 Please feel free to contact me if you have questions or suggestions.
