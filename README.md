@@ -4,7 +4,7 @@ This code was part of an installation for a short exhibition in which I was feat
 
 ## Documentation
 
-[![Documentation of projection mapping in Processing](http://img.youtube.com/vi/atJcAT2Y294/maxresdefault.jpg)](https://www.youtube.com/watch?v=atJcAT2Y294)
+[![Documentation of projection mapping in Processing](https://img.youtube.com/vi/atJcAT2Y294/maxresdefault.jpg)](https://www.youtube.com/watch?v=atJcAT2Y294)
 
 I wrote this code for an artistic practice. [Check out the documentation video](https://www.youtube.com/watch?v=atJcAT2Y294).
 
